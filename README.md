@@ -1,1 +1,1 @@
-# ink-and-insight
+# Ink-and-Insight
