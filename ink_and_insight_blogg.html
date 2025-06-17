@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ink & Insight</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      padding: 1rem 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+      padding: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #444;
+      font-weight: 500;
+    }
+    .hero {
+      background: linear-gradient(145deg, #ffffff, #e3e3e3);
+      padding: 3rem 0;
+      text-align: center;
+      border-radius: 12px;
+      margin-top: 2rem;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .featured-posts {
+      margin-top: 3rem;
+    }
+    .post-preview {
+      background-color: #fff;
+      padding: 1rem 1.5rem;
+      border-left: 4px solid #444;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+    }
+    .post-preview:hover {
+      background-color: #f0f0f0;
+    }
+    footer {
+      background-color: #fff;
+      border-top: 1px solid #ddd;
+      padding: 1rem 0;
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .contact-form {
+      background-color: #fff;
+      padding: 2rem;
+      margin-top: 4rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .contact-form button {
+      background-color: #444;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Ink & Insight</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Welcome to Ink & Insight</h2>
+      <p>Professional thoughts, creative writing, and deep insights.</p>
+    </section>
+
+    <section class="featured-posts">
+      <h3>Featured Posts</h3>
+      <article class="post-preview">
+        <h4><a href="blog-1.html">The Art of Focus: Finding Silence in Chaos</a></h4>
+        <p>A deep dive into productivity in a noisy world.</p>
+      </article>
+      <article class="post-preview">
+        <h4><a href="#">Creativity Unleashed: Think, Write, Inspire</a></h4>
+        <p>Breaking through creative blocks and unlocking your imagination.</p>
+      </article>
+      <article class="post-preview">
+        <h4><a href="#">From Brain to Blog: Writing That Matters</a></h4>
+        <p>Tips to make your writing impactful and authentic.</p>
+      </article>
+    </section>
+
+    <section class="contact-form" id="contact">
+      <h3>Contact Me</h3>
+      <form action="https://formspree.io/f/mwkgnzlo" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Ink & Insight. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

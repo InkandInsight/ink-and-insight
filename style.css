@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #1a1a1a;
+}
+
+header {
+  background: #f2f2f2;
+  color: #222;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  letter-spacing: 1px;
+  color: #222;
+}
+
+.tagline {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #555;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  background: #fafafa;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.blog-preview {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.blog-preview h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.blog-preview a {
+  color: #0056b3;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.blog-preview a:hover {
+  color: #003d80;
+}
+
+.blog-preview .date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.blog-preview .summary {
+  color: #333;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #f4f4f4;
+  color: #555;
+  font-size: 0.95rem;
+  border-top: 1px solid #ddd;
+}
+
+article ul {
+  padding-left: 1.2rem;
+}
+
+.back {
+  display: block;
+  margin-top: 1rem;
+  color: #0056b3;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
